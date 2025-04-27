@@ -17,7 +17,7 @@ spec:
         app: sample-app
     spec:
       containers:
-      - image: mathisve/reloader-example-1:latest
+      - image: nginx:latest
         name: example-1
         envFrom:
         - configMapRef:
